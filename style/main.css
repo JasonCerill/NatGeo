@@ -12,3 +12,8 @@ p{
 img{
     max-width: 100%;
 }
+p.read-btn{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}

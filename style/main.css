@@ -7,6 +7,11 @@ body{
     color:white;
     font-family: 'Roboto', sans-serif;
 }
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 nav{
     background-color: white;
 }
@@ -14,7 +19,7 @@ p{
     line-height: 2;
 }
 img{
-    max-width: 80%;
+    max-width: 100%;
 }
 a{
     text-transform: uppercase;
@@ -23,6 +28,7 @@ p.read-btn{
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
+    letter-spacing: 4px;
 }
 
 /*nav*/
@@ -54,17 +60,16 @@ p.read-btn{
     letter-spacing: 3px;
 }
 .link-subs{
-    text-transform: uppercase;
-    font-size: 13px;
-    color: white;
-    font-weight: 700;
-    letter-spacing: 3px;
-    background-color: black;
-    padding: 15px;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    background-image: linear-gradient(to left, black 50%, var(--primary) 50%);
+    transition: background-position .2s ease-in-out, color .2s ease-in-out;
+    color:white;
+    padding:1rem;
 }
 .link-subs:hover{
+    background-position: 0% 0;
     color:black;
-    background-color: var(--primary);
 }
 .link-arrows{
     color: black;
@@ -93,8 +98,121 @@ header{
     margin-left: auto;
 }
 span.span-1{
-    border-bottom: 1px solid yellow;
+    border-bottom:2px solid var(--primary);
+    background-size: 100% 200%;
+    background-image:linear-gradient(to bottom, black 50%, var(--primary) 50%);
+    transition: background-position .1s ease-in-out, color .1s ease-in-out;
 }
+
+span.span-1:hover{
+    background-position: 0 100%;
+    color:black;
+    cursor:pointer;
+}
+
+/*hover::after
+content:
+back-ground color::after
+*/
+
 .questlove:hover{
     max-width: 100%;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: white;
+}
+h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main-news-1-text p.title{
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+.main-news-1{
+    position:relative; /*parent should be relative, children absolute*/
+   height: 525px;
+}
+.main-news-1-text{
+    position:absolute;
+    top: 120px;
+    left:20px;
+    color: white;;
+}
+.main-news-1-img{
+    height: 600px
+}
+
+.main-news-1-text p.read-btn{
+    color: white;
+}
+.main-news-2{
+
+}
+.main-news-2-text{
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+}
+.main-news-2-text h3{
+    color: black;
+    padding: 10px;
+}
+.main-news-2-text p.title{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.main-news-2-img{
+
+}
+.main-news-3{
+
+}
+.main-news-3-img{
+
+}
+.main-news-3-text{
+    background-color: white;
+    color: black;
+}
+.main-news-3-text h3{
+    color: black;
+}
+.main-news-3-text p.title{
+
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+.span-2{
+    font-weight: 200;
+}
+.span-3{
+    font-weight: 200;
+}
+.todays-picks-container{
+
+}
+.pick-1{
+    display: grid;
+    grid-template-columns: 100px 300px;
+    margin-bottom: 20px;
+    column-gap: 30px;
+}
+    
+.pick-1 img{
+    width: 100px;
+    height: 100px;
+}
+.pick-1 p{
+    font-weight: 700;
+    line-height: 1.5;
 }

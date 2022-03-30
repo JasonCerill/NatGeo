@@ -22,6 +22,7 @@ html{
 }
 table{
     border: 1px black solid;
+    column-gap: 1px;
     
     
 }   
@@ -76,4 +77,23 @@ td{
 .grid-child{
     background-color: grey;
     border: 1px solid black;
+}
+.grid-challenge{
+    border: 1px solid black;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+.grid-headers{
+    display: grid;
+    grid-template-columns: 50px 100px 100px 200px 60px;
+    background-color: rgb(101, 101, 212);
+    border-bottom: white solid 2px;
+}
+.Bill{
+    display: grid;
+    grid-template-columns: 50px 100px 100px 200px 60px;
+    background-color: rgb(188, 188, 243);
+    border-bottom: white solid 2px;
 }

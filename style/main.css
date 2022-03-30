@@ -184,6 +184,7 @@ h3:hover{
 }
 .main-news-3-text h3{
     color: black;
+    padding: 10px;
 }
 .main-news-3-text p.title{
 
@@ -213,6 +214,76 @@ h3:hover{
     height: 100px;
 }
 .pick-1 p{
+    font-weight: 700;
+    line-height: 1.5;
+}
+.pick-2{
+    display: grid;
+    grid-template-columns: 100px 300px;
+    margin-bottom: 20px;
+    column-gap: 30px;
+}
+.pick-2 img{
+    width: 100px;
+    height: 100px;
+}
+.pick-2 p{
+    font-weight: 700;
+    line-height: 1.5;
+}
+.pick-3{
+    display: grid;
+    grid-template-columns: 100px 300px;
+    margin-bottom: 20px;
+    column-gap: 30px;
+}
+.pick-3 img{
+    width: 100px;
+    height: 100px;
+}
+.pick-3 p{
+    font-weight: 700;
+    line-height: 1.5;
+}
+.pick-4{
+    display: grid;
+    grid-template-columns: 100px 300px;
+    margin-bottom: 20px;
+    column-gap: 30px;
+}
+.pick-4 img{
+    width: 100px;
+    height: 100px;
+}
+.pick-4 p{
+    font-weight: 700;
+    line-height: 1.5;
+}
+.pick-5{
+    display: grid;
+    grid-template-columns: 100px 300px;
+    margin-bottom: 20px;
+    column-gap: 30px;
+}
+.pick-5 img{
+    width: 100px;
+    height: 100px;
+}
+.pick-5 p{
+    font-weight: 700;
+    line-height: 1.5;
+}
+.pick-6{
+    display: grid;
+    grid-template-columns: 100px 300px;
+    margin-bottom: 20px;
+    column-gap: 30px;
+}
+.pick-6 img{
+    width: 100px;
+    height: 100px;
+}
+.pick-6 p{
     font-weight: 700;
     line-height: 1.5;
 }
